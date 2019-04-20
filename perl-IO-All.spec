@@ -4,11 +4,11 @@
 #
 Name     : perl-IO-All
 Version  : 0.87
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/F/FR/FREW/IO-All-0.87.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/F/FR/FREW/IO-All-0.87.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libi/libio-all-perl/libio-all-perl_0.87-1.debian.tar.xz
-Summary  : 'IO::All to Larry Wall!'
+Summary  : IO::All of it to Graham and Damian!
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-IO-All-license = %{version}-%{release}
@@ -24,6 +24,7 @@ This document describes IO::All version 0.87.
 Summary: dev components for the perl-IO-All package.
 Group: Development
 Provides: perl-IO-All-devel = %{version}-%{release}
+Requires: perl-IO-All = %{version}-%{release}
 
 %description dev
 dev components for the perl-IO-All package.
@@ -42,7 +43,7 @@ license components for the perl-IO-All package.
 cd ..
 %setup -q -T -D -n IO-All-0.87 -b 1
 mkdir -p deblicense/
-mv %{_topdir}/BUILD/debian/* %{_topdir}/BUILD/IO-All-0.87/deblicense/
+cp -r %{_topdir}/BUILD/debian/* %{_topdir}/BUILD/IO-All-0.87/deblicense/
 
 %build
 export http_proxy=http://127.0.0.1:9/
@@ -68,6 +69,7 @@ make TEST_VERBOSE=1 test
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/perl-IO-All
 cp LICENSE %{buildroot}/usr/share/package-licenses/perl-IO-All/LICENSE
+cp deblicense/copyright %{buildroot}/usr/share/package-licenses/perl-IO-All/deblicense_copyright
 if test -f Makefile.PL; then
 make pure_install PERL_INSTALL_ROOT=%{buildroot} INSTALLDIRS=vendor
 else
@@ -124,3 +126,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 %files license
 %defattr(0644,root,root,0755)
 /usr/share/package-licenses/perl-IO-All/LICENSE
+/usr/share/package-licenses/perl-IO-All/deblicense_copyright
