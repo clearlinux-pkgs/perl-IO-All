@@ -4,7 +4,7 @@
 #
 Name     : perl-IO-All
 Version  : 0.87
-Release  : 15
+Release  : 16
 URL      : https://cpan.metacpan.org/authors/id/F/FR/FREW/IO-All-0.87.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/F/FR/FREW/IO-All-0.87.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libi/libio-all-perl/libio-all-perl_0.87-1.debian.tar.xz
@@ -116,28 +116,28 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All.pm
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All.pod
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/Base.pm
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/DBM.pm
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/DBM.pod
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/Dir.pm
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/Dir.pod
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/File.pm
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/File.pod
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/Filesys.pm
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/Filesys.pod
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/Link.pm
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/Link.pod
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/MLDBM.pm
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/MLDBM.pod
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/Pipe.pm
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/Pipe.pod
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/STDIO.pm
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/STDIO.pod
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/Socket.pm
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/Socket.pod
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/String.pm
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/String.pod
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/Temp.pm
-/usr/lib/perl5/vendor_perl/5.30.2/IO/All/Temp.pod
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All.pm
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All.pod
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/Base.pm
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/DBM.pm
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/DBM.pod
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/Dir.pm
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/Dir.pod
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/File.pm
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/File.pod
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/Filesys.pm
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/Filesys.pod
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/Link.pm
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/Link.pod
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/MLDBM.pm
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/MLDBM.pod
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/Pipe.pm
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/Pipe.pod
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/STDIO.pm
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/STDIO.pod
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/Socket.pm
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/Socket.pod
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/String.pm
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/String.pod
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/Temp.pm
+/usr/lib/perl5/vendor_perl/5.30.3/IO/All/Temp.pod
