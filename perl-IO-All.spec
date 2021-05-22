@@ -4,7 +4,7 @@
 #
 Name     : perl-IO-All
 Version  : 0.87
-Release  : 20
+Release  : 21
 URL      : https://cpan.metacpan.org/authors/id/F/FR/FREW/IO-All-0.87.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/F/FR/FREW/IO-All-0.87.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libi/libio-all-perl/libio-all-perl_0.87-1.debian.tar.xz
